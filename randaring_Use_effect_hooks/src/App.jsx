@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Posts from './posts'
 
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
         <li>load data</li>
       </ol>
       <hr />
+
+      <Posts></Posts>
     </>
   )
 }
